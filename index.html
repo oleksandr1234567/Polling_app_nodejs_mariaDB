@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Opinion Poll</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+body{background-image: url("https://i.dlpng.com/static/png/6719466_preview.png"); background-size:cover;  }
+</style>
+
+<body>
+    
+    <main>
+        <div class="container">
+            <br>
+            <div class="jumbotron text-center" style="margin-bottom:0" >
+                <h1> What is your favourite color?</h1>
+            </div>
+              <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+              <nav class="navbar navbar-expand-sm bg-success navbar-dark"></nav>
+
+            <form action="http://localhost:3001" method="GET">  
+                <div class="container">
+                    <br>
+                    <label for="option1"> 
+                        <div class="option_decoration1">
+                        <input type="radio" id="option1" name="poll_option" value="Red" > Red          
+                        </div>                
+                    </label>  <br>
+
+                    <label for="option2"> 
+                        <div class="option_decoration2">
+                        <input type="radio" id="option2" name="poll_option" value="Yellow"> Yellow
+                        </div>                
+                    </label>  <br>
+                    
+                    <label for="option3"> 
+                        <div class="option_decoration3">
+                        <input type="radio" id="option3" name="poll_option" value="Green"> Green
+                        </div>                
+                    </label>  <br>
+
+                    <label for="option4"> 
+                        <div class="option_decoration4">
+                        <input type="radio" id="option4" name="poll_option" value="Black"> Black
+                        </div>                
+                    </label>  <br> <br>
+                </div>
+
+            <div class="jumbotron text-center" style="margin-bottom:0">
+             <input type="submit" value="Submit" class="btn btn-success" >
+            </div>              
+            </form>
+    </main> 
+    <br> <p style="text-align: center"> Developed by: Oleksandr Zakirov</p>
+</body>
+<script src= "queries.js>"></script>
+</html>
